@@ -1,0 +1,97 @@
+.register-page {
+    max-width: 400px;
+    margin: auto;
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .breadcrumbs {
+    font-size: 14px;
+    color: #8c8c8c;
+    margin-bottom: 20px;
+  }
+  
+  .register-title {
+    font-size: 28px;
+    color: #a0522d; /* Gold-brown color */
+    margin-bottom: 20px;
+  }
+  
+  .social-login .btn {
+    width: 48%;
+    margin: 5px 1%;
+    padding: 10px;
+    font-size: 16px;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .fb-btn {
+    background-color: #3b5998;
+  }
+  
+  .google-btn {
+    background-color: #db4437;
+  }
+  
+  .or-divider {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0;
+    color: #a0522d;
+  }
+  
+  .or-divider hr {
+    flex: 1;
+    border: none;
+    height: 1px;
+    background-color: #ddd;
+  }
+  
+  .or-divider span {
+    padding: 0 10px;
+  }
+  
+  .register-form {
+    text-align: left;
+  }
+  
+  .register-form .form-control {
+    margin: 10px 0;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  .terms {
+    font-size: 12px;
+    color: #8c8c8c;
+    margin: 20px 0;
+  }
+  
+  .register-btn {
+    width: 100%;
+    background-color: #a0522d;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .login-btn {
+    width: 100%;
+    background-color: white;
+    color: #a0522d;
+    border: 1px solid #a0522d;
+    padding: 10px;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  

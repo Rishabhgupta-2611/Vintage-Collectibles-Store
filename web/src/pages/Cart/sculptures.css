@@ -1,0 +1,268 @@
+/* Global Styles */
+body {
+  font-family: "Playfair Display", serif;
+  background-color: #fefaf3;
+  color: #4b3a30;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+}
+
+/* Container */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+/* Header Section */
+h1 {
+  text-align: center;
+  font-size: 2.8rem;
+  color: #7b5a44;
+  margin-bottom: 1rem;
+}
+
+nav {
+  text-align: center;
+  font-size: 1rem;
+  margin-bottom: 2rem;
+}
+
+nav a {
+  color: #7b5a44;
+  text-decoration: none;
+  margin: 0 0.5rem;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+nav span {
+  color: #4b3a30;
+}
+
+/* Description */
+.container p {
+  text-align: center;
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+  color: #6a5446;
+  max-width: 800px;
+  line-height: 1.8;
+  margin: 0 auto;
+}
+
+/* Filter and Sort */
+.filter-sort {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.filter-sort label {
+  margin-right: 0.5rem;
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #6a5446;
+}
+
+.filter-sort select {
+  padding: 0.5rem 1rem;
+  border: 1px solid #dcd3c9;
+  border-radius: 5px;
+  font-size: 1rem;
+  color: #4b3a30;
+  background-color: #fff;
+  outline: none;
+  transition: border-color 0.3s;
+}
+
+.filter-sort select:hover {
+  border-color: #7b5a44;
+}
+
+/* Sculpture Grid */
+.sculpture-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2rem;
+}
+
+/* Card Styling */
+.card {
+  background-color: #ffffff;
+  border: 1px solid #e5dfd9;
+  border-radius: 10px;
+  overflow: hidden;
+  padding: 1.5rem;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.15);
+}
+
+/* Image */
+.sculpture-image {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+}
+
+/* Sculpture Details */
+.card h3 {
+  font-size: 1.4rem;
+  color: #7b5a44;
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+}
+
+.card p {
+  font-size: 1.2rem;
+  color: #4b3a30;
+  font-weight: 600;
+}
+
+/* Quantity Controls */
+.quantity-controls {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  margin: 1rem 0;
+}
+
+.quantity-controls button {
+  padding: 0.6rem;
+  border: none;
+  background-color: #8b5e3c;
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.quantity-controls button:hover {
+  background-color: #6e4a32;
+}
+
+.quantity-controls input {
+  width: 50px;
+  padding: 0.5rem;
+  text-align: center;
+  border: 1px solid #dcd3c9;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+/* Buttons */
+.action-buttons {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+}
+
+.add-to-cart,
+.buy-it-now {
+  padding: 0.8rem 1.5rem;
+  font-size: 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  border: none;
+  font-family: "Roboto", sans-serif;
+}
+
+.add-to-cart {
+  background-color: #7b5a44;
+  color: #fff;
+}
+
+.add-to-cart:hover {
+  background-color: #5e4433;
+}
+
+.buy-it-now {
+  background-color: #4b3a30;
+  color: #fff;
+}
+
+.buy-it-now:hover {
+  background-color: #3a2c24;
+}
+
+/* Floating Icons */
+.floating-icons {
+  position: fixed;
+  bottom: 2rem;
+  right: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.floating-icons button {
+  width: 50px;
+  height: 50px;
+  background-color: #8b5e3c;
+  color: #fff;
+  border: none;
+  border-radius: 50%;
+  font-size: 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.floating-icons button:hover {
+  background-color: #6e4a32;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .filter-sort {
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 1.5rem;
+  }
+
+  .filter-sort label {
+    margin-bottom: 0.5rem;
+  }
+
+  .sculpture-grid {
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  }
+
+  .quantity-controls button,
+  .quantity-controls input {
+    font-size: 0.9rem;
+  }
+
+  .action-buttons button {
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .sculpture-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .card h3 {
+    font-size: 1rem;
+  }
+
+  .card p {
+    font-size: 0.9rem;
+  }
+}

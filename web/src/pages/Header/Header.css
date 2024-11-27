@@ -1,0 +1,51 @@
+/* Header.css */
+.header {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+  }
+  
+  .header-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: white;
+    height: 40px;
+  }
+  
+  .logo {
+    font-size: 24px;
+    color: #8B5A2B;
+  }
+  
+  .icons {
+    display: flex;
+    gap: 15px;
+  }
+  
+  .icon {
+    font-size: 20px;
+    color: #8B5A2B;
+    cursor: pointer;
+  }
+  
+  .header-bottom {
+    display: flex;
+    justify-content: center;
+    background-color: #8B5A2B;
+    padding: 10px;
+  }
+  
+  .header-bottom a {
+    margin: 0 15px;
+    color: white;
+    text-decoration: none;
+  }
+  
+  .header-bottom a:hover {
+    text-decoration: underline;
+  }
+  

@@ -1,0 +1,107 @@
+/* src/styles/Account.css */
+
+.account-container {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    color: #6b4b3d;
+}
+
+.account-header {
+    padding: 20px;
+    font-size: 2rem;
+    color: #6b4b3d;
+}
+
+.account-header nav {
+    font-size: 0.9rem;
+    color: #6b4b3d;
+}
+
+.account-content {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.login-section,
+.register-section {
+    width: 300px;
+    margin: 20px;
+    text-align: left;
+}
+
+.login-section h2,
+.register-section h2 {
+    font-size: 1.5rem;
+    color: #6b4b3d;
+    margin-bottom: 10px;
+}
+
+.social-login {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+
+.facebook-btn,
+.google-btn {
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    border: none;
+    cursor: pointer;
+    color: white;
+}
+
+.facebook-btn {
+    background-color: #3b5998;
+}
+
+.google-btn {
+    background-color: #db4437;
+}
+
+.login-form input {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.forgot-password {
+    display: inline-block;
+    margin: 10px 0;
+    color: #6b4b3d;
+    text-decoration: none;
+}
+
+.forgot-password:hover {
+    text-decoration: underline;
+}
+
+.sign-in-btn {
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    background-color: #6b4b3d;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.register-section p {
+    font-size: 0.9rem;
+    color: #6b4b3d;
+    margin-bottom: 15px;
+}
+
+.register-btn {
+    padding: 10px 20px;
+    font-size: 1rem;
+    background-color: #6b4b3d;
+    color: white;
+    border: none;
+    cursor: pointer;
+}

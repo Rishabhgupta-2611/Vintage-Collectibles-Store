@@ -1,0 +1,67 @@
+
+body {
+  font-family: Arial, sans-serif;
+  color: #3a2f2f;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.content {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.breadcrumb {
+  font-size: 14px;
+  color: #a67b5b;
+}
+
+.story-section, .what-we-do, .philosophy, .naming-brand {
+  text-align: left;
+  margin-top: 20px;
+}
+
+.story-section p, .what-we-do p, .philosophy p, .naming-brand p {
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+h2 {
+  font-size: 20px;
+  margin-top: 20px;
+  font-weight: bold;
+  color: #a67b5b;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  background-color: #f2f2f2;
+  padding: 20px;
+  margin-top: 40px;
+  font-size: 14px;
+}
+
+.footer-section h3 {
+  font-weight: bold;
+  color: #3a2f2f;
+}
+
+.footer-section ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.footer-section ul li {
+  margin-bottom: 8px;
+  color: #3a2f2f;
+}
+
+.footer-section address {
+  font-style: normal;
+  color: #3a2f2f;
+}
